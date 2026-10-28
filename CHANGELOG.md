@@ -19,9 +19,22 @@ version says how old a build is, not how big its changes are. Whether a saved
 
 ## [Unreleased]
 
+## [2026.10.1] — 2026-10-28
+
 - New radio: the Baofeng DM-36, on the DM-32's driver — channels, zones, contacts and settings. Alpha.
 - UV5R-Mini, DM-32 and DM-36: every write now sends the settings, so a codeplug read from one radio and written to another carries its settings over (#206).
 - Picking the wrong radio now says so, instead of showing a cable checklist.
+
+### What's Changed
+* README: add a link to the Japanese fork (NeonPlugJA) by @ja2izu in https://github.com/infamy/NeonPlug/pull/203
+* Add the Baofeng DM-36 (alpha) and rename the DM-32 driver to DM-3x by @infamy in https://github.com/infamy/NeonPlug/pull/204
+* Write settings on every write for the UV5R-Mini and DM-3x radios by @infamy in https://github.com/infamy/NeonPlug/pull/207
+* Release notes for 2026.10.1 by @infamy in https://github.com/infamy/NeonPlug/pull/208
+
+### New Contributors
+* @ja2izu made their first contribution in https://github.com/infamy/NeonPlug/pull/203
+
+**Full Changelog**: https://github.com/infamy/NeonPlug/compare/v2026.10.0...v2026.10.1
 
 ## [2026.10.0] — 2026-10-10
 
